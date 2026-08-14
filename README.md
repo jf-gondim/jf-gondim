@@ -96,8 +96,8 @@ poc-name/
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jf-gondim&show_icons=true&hide_border=true" alt="GitHub Stats" height="160">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jf-gondim&layout=compact&hide_border=true" alt="Top Languages" height="160">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jf-gondim&show_icons=true&hide_border=true" alt="GitHub Stats" height="160">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jf-gondim&layout=compact&hide_border=true" alt="Top Languages" height="160">
 </p>
 
 ---
