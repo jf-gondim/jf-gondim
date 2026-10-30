@@ -1,10 +1,4 @@
-<!--
-  GitHub profile README.
-  Replace the fields marked with << >> with your real data
-  (username, name, links, e-mail).
--->
-
-<h1 align="center">Hi, I'm João Oliveira 👋</h1>
+<h1 align="center">João Oliveira</h1>
 
 <p align="center">
   <b>Senior Developer</b> · Scientific computing on GPU/HPC · Offensive security research
@@ -18,42 +12,41 @@
 
 ---
 
-## 👤 About me
+## About me
 
-**Senior developer** working across two complementary fields:
+Senior developer focused on:
 
-- **High-performance software engineering** — design and optimization of **image processing** pipelines for scientific applications, focused on **GPU** execution and **HPC** (High Performance Computing) infrastructure.
-- **Offensive security research** — development of **proofs of concept (PoCs)** documented in a structured way, prioritizing reproducibility, technical clarity, and responsible disclosure.
-
-> I'm equally interested in squeezing maximum throughput out of a cluster and in understanding, at its root, why a system fails under adversarial pressure.
+- GPU/HPC image processing pipelines for scientific applications.
+- Offensive security research, published as reproducible proofs of concept (PoCs).
+- DevSecOps and supply chain attack mitigation.
 
 ---
 
-## 🔬 Image processing in scientific pipelines (GPU · HPC)
+## Image processing in scientific pipelines (GPU · HPC)
 
-I design and optimize pipelines that process large volumes of image data in scientific computing environments.
+Design and optimization of pipelines for large volumes of image data.
 
-- **GPU acceleration** — kernels and routines optimized for massive parallelism, device memory management, and minimization of host↔device transfers.
-- **HPC scale** — workload distribution across multiple nodes/GPUs, job scheduling, and integration with cluster schedulers.
-- **Impact-driven** — reduced processing time, higher throughput, and enabling analyses that were previously infeasible within a practical time frame.
-- **Reproducibility** — versioned, parameterizable, and documented pipelines for use by research teams.
+- **GPU:** parallel kernels, device memory management, fewer host↔device transfers.
+- **HPC:** multi-node/multi-GPU workload distribution and scheduler integration.
+- **Reuse:** versioned, parameterizable, documented pipelines.
 
-**Typical stack for this field:**
+**Stack:**
 
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![OpenMP/MPI](https://img.shields.io/badge/MPI%20%2F%20OpenMP-005571?style=flat)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Singularity](https://img.shields.io/badge/Singularity-1E5C8B?style=flat)
 
 ---
 
-## 🛡️ Offensive security research
+## Offensive security research
 
-I maintain research repositories with **well-documented PoCs**, following a **structured standard** so anyone can understand, evaluate, and reproduce the work.
-
-Each PoC follows, where applicable, the same structure:
+Each PoC repository follows the same structure:
 
 ```
 poc-name/
@@ -62,38 +55,35 @@ poc-name/
 └── LICENSE        
 ```
 
-**Principles I follow:**
+Each PoC includes context, preconditions, steps, expected result, and an isolated environment. Published for educational and defensive purposes, within authorized scope and following responsible disclosure.
 
-- 📑 **Documentation first** — context, preconditions, steps, and expected result.
-- 🔁 **Reproducibility** — isolated environment and clear execution instructions.
-- ⚖️ **Ethics** — all material is published for educational and defensive purposes, respecting responsible disclosure and authorized scope.
-- 🧩 **Consistent standard** — the same structure across repositories makes reading and review easier.
-
-**Areas of interest:** vulnerability analysis · reverse engineering · low-level exploitation · pentest.
+**Areas:** vulnerability analysis, reverse engineering, exploit development (Linux and .NET), Active Directory, pentesting, PoC publication.
 
 ---
 
-## 🧰 Technologies & tools
+## Technologies and tools
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat&logo=gitlab&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=flat&logo=kalilinux&logoColor=white)
 
 ---
 
-## 📌 Featured repositories
-
-<!-- Replace with your real repositories -->
+## Featured repositories
 
 | Repository | Description |
 |---|---|
-| [`ema-diff`](https://github.com/jf-gondim/ema-diff) | EMA Beamline diffraction image processing pipeline for HPC. |
 | [`mcp-pwn`](https://github.com/jf-gondim/mcp-pwn) | Offensive security PoC with structured documentation. |
 | [`freepbx-endpoint-sqli-rce`](https://github.com/jf-gondim/freepbx-endpoint-sqli-rce) | Offensive security PoC with a reproducible environment. |
+| [`libfprint-goodix-55a4`](https://github.com/jf-gondim/libfprint-goodix-55a4) | `libfprint` driver for the Goodix fingerprint sensor. |
+| [`ema-diff`](https://github.com/jf-gondim/ema-diff) | EMA Beamline diffraction image processing pipeline for HPC. |
 
 ---
 
-## 📊 GitHub Stats
+## GitHub stats
 
 <p align="center">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=jf-gondim&show_icons=true&hide_border=true" alt="GitHub Stats" height="160">
